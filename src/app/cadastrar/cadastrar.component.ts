@@ -39,7 +39,6 @@ export class CadastrarComponent implements OnInit {
   cadastrar(){
     this.user.cooperativa = this.tipoCooperativa
     this.user.localidade = this.estadoLocalidade
-
     if(this.user.senha != this.confirmarSenha){
       alert('As senhas estão incorretas.')
     }else {

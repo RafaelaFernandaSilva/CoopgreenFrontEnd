@@ -1,4 +1,6 @@
 export const environment = {
   production: true,
-  token: ''
+  token: '',
+  nomeFisOuJuri: '',
+  id: 0,
 };
